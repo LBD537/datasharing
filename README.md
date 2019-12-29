@@ -1,5 +1,5 @@
 How to share data with a statistician
-===========
+=====================================
 
 This is a guide for anyone who needs to share data with a statistician or data scientist. The target audiences I have in mind are:
 
@@ -21,7 +21,7 @@ have to work through all the pre-processing steps first.
 
 
 What you should deliver to the statistician
-====================
+===========================================
 
 To facilitate the most efficient and timely analysis this is the information you should pass to a statistician:
 
@@ -33,7 +33,7 @@ To facilitate the most efficient and timely analysis this is the information you
 Let's look at each part of the data package you will transfer. 
 
 
-### The raw data
+## The raw data
 
 It is critical that you include the rawest form of the data that you have access to. This ensures
 that data provenance can be maintained throughout the workflow.  Here are some examples of the
@@ -55,7 +55,7 @@ If you made any modifications of the raw data it is not the raw form of the data
 as raw data is a very common way to slow down the analysis process, since the analyst will often have to do a
 forensic study of your data to figure out why the raw data looks weird. (Also imagine what would happen if new data arrived?)
 
-### The tidy data set
+## The tidy data set
 
 The general principles of tidy data are laid out by [Hadley Wickham](http://had.co.nz/) in [this paper](http://vita.had.co.nz/papers/tidy-data.pdf)
 and [this video](http://vimeo.com/33727555). While both the paper and the video describe tidy data using [R](http://www.r-project.org/), the principles
@@ -86,7 +86,7 @@ should not have multiple worksheets, no macros should be applied to the data, an
 Alternatively share the data in a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) or [TAB-delimited](http://en.wikipedia.org/wiki/Tab-separated_values) text file. (Beware however that reading CSV files into Excel can sometimes lead to non-reproducible handling of date and time variables.)
 
 
-### The code book
+## The code book
 
 For almost any data set, the measurements you calculate will need to be described in more detail than you can or should sneak
 into the spreadsheet. The code book contains this information. At minimum it should contain:
@@ -161,7 +161,7 @@ to confirm that they can obtain the same output file you did.
 
 
 What you should expect from the analyst
-====================
+=======================================
 
 When you turn over a properly tidied data set it dramatically decreases the workload on the statistician. So hopefully
 they will get back to you much sooner. But most careful statisticians will check your recipe, ask questions about
@@ -182,7 +182,7 @@ to explain why the statistician performed each step to a labmate/your principal 
 
 
 Contributors
-====================
+============
 
 * [Jeff Leek](http://biostat.jhsph.edu/~jleek/) - Wrote the initial version.
 * [L. Collado-Torres](http://bit.ly/LColladoTorres) - Fixed typos, added links.
